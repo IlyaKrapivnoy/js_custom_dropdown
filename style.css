@@ -64,6 +64,12 @@ body {
     top: 50%;
     right: 40px;
     transform: translateY(-50%);
+    transition: all 500ms ease-in-out;
+}
+
+.dropdown.show i {
+    transform: translateY(-50%) rotate(180deg);
+    transition: all 500ms ease-in-out;
 }
 
 .options {
