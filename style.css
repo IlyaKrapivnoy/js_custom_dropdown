@@ -36,3 +36,31 @@ body {
     box-shadow: inset 7px 7px 14px #d0d0d0,
                 inset -7px -7px 14px #fff;
 }
+
+.dropdown input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border: none;
+    outline: none;
+    background: none;
+    color: #37373d;
+    font-size: 1.2em;
+    cursor: pointer;
+    /* transition: all 500ms ease-in-out; */
+}
+
+.dropdown input:focus {
+    outline: none;
+    border: none;
+}
+
+.dropdown i {
+    color: #37373d;
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+}
